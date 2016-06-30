@@ -1,0 +1,190 @@
+<!DOCTYPE>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css_v2.css">
+	<!--<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.7/jquery.min.js"></script>-->
+	<!--<script src="http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.2.1/underscore-min.js"></script>-->
+	<!--<script src="http://cdnjs.cloudflare.com/ajax/libs/backbone.js/0.5.3/backbone-min.js"></script>-->
+</head>
+<body>
+
+	<div id="calendarLayer"></div>
+	<div class="calendarLayer"></div>
+	<script type="text/javascript" src="index_v2.js"></script>
+	<script type="text/javascript">
+
+
+//		Function.prototype.bind = function (thisArg) {
+//			var self = this,
+//				slice = Array.prototype.slice,
+//				args = slice.call(arguments , 1);
+////				console.log(thisArg);
+////				console.log(args.concat(slice.call(arguments)));
+////			var arr = args.concat(slice.call(arguments));
+////			console.log(arr);
+//			return function () {
+////				return self.apply(thisArg, args);
+//				return self.apply(thisArg, args.concat(slice.call(arguments)));
+////				return self.apply(thisArg, ['ddd', 'aaa', '3311113',two, 'ddd', 'aaa', '3311113']);
+//			};
+//		};
+
+//var myfunc = function(arg1, arg2){
+//	console.log(this);
+//	console.log(arg1);
+//	console.log(arg2);
+//};
+//var bindedMyfunc = Function.prototype.bind.apply(myfunc, ["mythis", "param1", "param2"]);
+//bindedMyfunc();
+
+
+/**
+ * function bind, call, apply, concat test...
+ */
+//var one = {
+//	name : 'yoobin',
+//	getName : function(name) {
+////		console.log(name);
+////		console.log(arguments);
+//		if ( !!name ) this.name = name;
+//		return this.name;
+//	}
+//};
+
+//var two = {
+//	name : 'sui'
+//};
+//
+//var res = one.getName.bind(two,'ddd','aaa','333');
+//console.log(res());
+//		console.log(res());
+
+//var Obj = {};
+//	Obj.Test = function (ob1, ob2) {
+//		this.args = arguments;
+//		return this;
+//	};
+
+//
+//var myobj = {dd:'dd',aa:'aa'};
+//
+////var aa = test.bind(obj1,{yoobin : 'yoobin'}, {JiinSeong : 'Jiin'})();
+//
+//var newFunc = Obj.Test.bind(myobj, 1, 2, 3);
+//console.log(newFunc('!!!!!'));
+
+//console.log(test());
+
+
+
+
+
+
+
+
+
+
+
+//var one = {
+//	name : "Jiin",
+//
+//	say : function (greet) {
+//		return greet + "," + this.name;
+//	}
+//
+//};
+////one.say( 'hi' ); // “hi, Jiin"
+//
+////var res = one.say.apply(two, ['apply']);
+//////console.log(res);
+//
+//var twosay2 = one.say.bind( {},'aaa1a','bbb','cccc' );
+//console.log(twosay2());
+//
+//
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//		var Book = Backbone.Model.extend({
+//			defaults: {
+//				sort: 'default',
+//				title: 'default Title'
+//			}
+//		});
+//
+//		var book1 = new Book({sort: 'JavaScript', title: 'JavaScript Book 1'}),
+//				book2 = new Book({sort: 'JavaScript', title: 'JavaScript Book 2'}),
+//				book3 = new Book({sort: 'JavaScript', title: 'JavaScript Book 3'});
+//
+//		var Books = Backbone.Collection.extend({		// Books 라는 collection을 만듭니다.
+//			model: Book
+//		});
+//
+//		var books = new Books();	// books 라는 Books collection의 인스턴스를 만듭니다.
+//
+//		books.add([book1, book2, book3]);	// add 메서드를 사용해서 model들을 books에 넣습니다.
+//		console.log(books);
+//
+//
+//function callMe(arg1) {
+//	console.log(this);
+//	console.log(arg1);
+////	var s = " ";
+////	s += "this value : " + this;
+////	s += "<br />";
+////	for (var i in callMe.arguments) {
+////		s+= "arguments : " + callMe.arguments[i];
+////	}
+////	return s;
+//}
+////document.write("Original function: <br/>");
+////document.write(callMe(1, 2));
+////
+//
+//
+////document.write("<br/>");
+////document.write("Function called with call: <br/>");
+//document.write(callMe.call({aa:'aa'}, 4, 5));
+//
+
+		(new sui.component.createCalendar({
+			elementId : 'calendarLayer'
+		}));
+
+	</script>
+
+</body>
+
+</html>
