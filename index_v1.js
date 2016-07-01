@@ -78,7 +78,6 @@ var component = {};
 
 
 
-
 	component.Calendar = function(options) {
 
 		this.options = options;

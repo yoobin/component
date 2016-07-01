@@ -20,24 +20,24 @@
     <favorites_list name="ui.component.calendar" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5199754">
+    <splitter split-orientation="horizontal" split-proportion="0.1">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="css_v2.css" pinned="false" current-in-tab="false">
+          <file leaf-file-name="css_v2.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css_v2.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-0.625">
+                <state vertical-scroll-proportion="0.012116317">
                   <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="index_v2.js" pinned="false" current-in-tab="true">
+          <file leaf-file-name="index_v2.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/index_v2.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.2393027">
-                  <caret line="223" column="0" selection-start-line="223" selection-start-column="0" selection-end-line="223" selection-end-column="0" />
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="1" column="13" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="13" />
                   <folding>
                     <marker date="1467284754000" expanded="true" signature="3378:3450" placeholder="..." />
                     <marker date="1467284754000" expanded="true" signature="3392:3411" placeholder="..." />
@@ -51,21 +51,21 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="index_v1.js" pinned="false" current-in-tab="true">
+          <file leaf-file-name="index_v1.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/index_v1.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.67908084">
-                  <caret line="118" column="31" selection-start-line="118" selection-start-column="24" selection-end-line="118" selection-end-column="31" />
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="index_v2.html" pinned="false" current-in-tab="false">
+          <file leaf-file-name="index_v2.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index_v2.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-70.0">
-                  <caret line="112" column="0" selection-start-line="112" selection-start-column="0" selection-end-line="112" selection-end-column="0" />
+                <state vertical-scroll-proportion="0.6486268">
+                  <caret line="87" column="0" selection-start-line="87" selection-start-column="0" selection-end-line="89" selection-end-column="12" />
                   <folding />
                 </state>
               </provider>
@@ -82,9 +82,9 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/index_v1.html" />
         <option value="$PROJECT_DIR$/css_v2.css" />
+        <option value="$PROJECT_DIR$/index_v2.js" />
         <option value="$PROJECT_DIR$/index_v1.js" />
         <option value="$PROJECT_DIR$/index_v2.html" />
-        <option value="$PROJECT_DIR$/index_v2.js" />
       </list>
     </option>
   </component>
@@ -94,9 +94,9 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="884" />
+    <option name="x" value="977" />
     <option name="y" value="23" />
-    <option name="width" value="1675" />
+    <option name="width" value="1582" />
     <option name="height" value="1413" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -172,6 +172,8 @@
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -237,7 +239,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="884" y="23" width="1675" height="1413" extended-state="0" />
+    <frame x="977" y="23" width="1582" height="1413" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -321,39 +323,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index_v2.html">
+    <entry file="file://$PROJECT_DIR$/index_v2.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-70.0">
-          <caret line="112" column="0" selection-start-line="112" selection-start-column="0" selection-end-line="112" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="13" />
+          <folding>
+            <marker date="1467284754000" expanded="true" signature="3378:3450" placeholder="..." />
+            <marker date="1467284754000" expanded="true" signature="3392:3411" placeholder="..." />
+            <marker date="1467284754000" expanded="true" signature="3429:3448" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css_v2.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.012116317">
+          <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index_v1.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.67908084">
-          <caret line="118" column="31" selection-start-line="118" selection-start-column="24" selection-end-line="118" selection-end-column="31" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css_v2.css">
+    <entry file="file://$PROJECT_DIR$/index_v2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.625">
-          <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
+        <state vertical-scroll-proportion="0.6486268">
+          <caret line="87" column="0" selection-start-line="87" selection-start-column="0" selection-end-line="89" selection-end-column="12" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index_v2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2393027">
-          <caret line="223" column="0" selection-start-line="223" selection-start-column="0" selection-end-line="223" selection-end-column="0" />
-          <folding>
-            <marker date="1467284754000" expanded="true" signature="3378:3450" placeholder="..." />
-            <marker date="1467284754000" expanded="true" signature="3392:3411" placeholder="..." />
-            <marker date="1467284754000" expanded="true" signature="3429:3448" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
