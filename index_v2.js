@@ -209,6 +209,7 @@ sui.component.createCalendar = function(options) {
 						elTable.childNodes[k].appendChild(elTr);
 
 					} else if (elTable.childNodes[k].tagName.toLowerCase() === 'tbody') {
+						console.log("!!!" + elTable.constructor.name);
 						this.dateTimeRender(elTable.childNodes[k]);
 						//이곳에서 1~30일까지의 기간을 넣음
 						//console.log(elTable.childNodes[k]);

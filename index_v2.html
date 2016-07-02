@@ -152,16 +152,18 @@ console.log(instance);
 /**
  * 다음 함수들은 함수를 간접적으로 호출하면서 this의 객체를 변경할 수 있다.
  * call, apply, bind
- * call : 호출 메서드의 call에 this를 적용 시킬 대상객체와 호출 메서드의 필요 인자를 넘길경우 결과값 반환.
- * apply : 호출 메서드의 apply에 this를 적용 시킬 대상객체와 호출 메서드의 필요 배열을 넘길경우 결과값 반환.
+ * call : 호출 메서드의 call에 this를 적용 시킬 대상객체와 호출 메서드의 필요 인자를 넘기면서 결과값 반환.
+ * apply : 호출 메서드의 apply에 this를 적용 시킬 대상객체와 호출 메서드의 필요 배열을 넘기면서 결과값 반환.
  * bind : call과 다소 유사한 모습을 보이며 호출 메서드의 bind할 해당 this를 적용 시킬 대상객체와 호출 메서드의 parameter or 배열을 넘기면서 새로운 함수를 함수 반환.
  * 결론  : call, apply, bind 모두 유사한 기능을 지니고 있으며, 사용자 임의로 this의 객체(context의 유효범위)를 마음껏 변경 할 수 있다. 각각의 인자로 넘길때 각각의 개별인지, 배열인지 혹은 결과가 값인지 함수인지의 차이인것이다.
  */
 
 
-var Closure = function ( ) {
-
-
+	/**
+	 * 클로저란?
+	 * 자신의 부모의 스코프 체인을 포함하며, 자신의 유효범위를 넘어 scope chain으로 연결된 변수와 객체를 참조되는것을 이야기한다.
+	 */
+	var Closure = function ( ) {
 	var name = 'Yoobin',
 		age = 26;
 
